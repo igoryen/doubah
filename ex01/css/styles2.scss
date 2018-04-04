@@ -1,0 +1,426 @@
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+    @import url('https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext');
+    @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    
+
+
+
+.landing-page .f-strata i {
+    font-style: italic
+}
+
+.landing-page .f-strata span {
+    display: inline-block
+}
+
+.landing-page {
+    .f-strata {
+        p {
+            font-size: 15px;
+            line-height: 1.2rem;;
+            margin-top: 16px
+        }
+    }
+}
+
+.landing-page .f-strata h2 {
+    font-family: "BentonSans", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+
+.landing-page .f-strata h1 {
+    font-family: "BentonSans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: normal;
+    text-transform: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C .hiw {
+    padding: 48px 10px 72px
+}
+
+.how-it-works .hiw .route {
+    width: 300px;
+    margin: 8px auto 0;
+    font-family: "Sintony", sans-serif;
+    // border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none
+}
+
+body.frozen {
+    overflow: hidden
+}
+
+
+
+.xhr select {
+    pointer-events: none
+}
+
+.webkit select,
+.firefox select {
+    font-size: 100%;
+    margin-top: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid #D9D9D9;
+    // background-image: url(/assets/widgets/SelectArrows-781084d4c172ac9c9790302ffd8f6b0c2a06b0d093cca654eb6f88dcf4ab84aa.svg);
+    background-image: url(../../img/arrows01.png);
+    background-repeat: no-repeat;
+    background-position: center right
+}
+
+
+
+
+
+
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+
+.how-it-works {
+        .hiw {
+            .route {
+                // width: 720px;
+                // height: 550px;
+                // margin-top: 48px;
+                // position: relative;
+                // // background-image: url(/assets/landing_pages/food_vision/hiw-arrows-92209baf8c7af2c59237ee1e246a25243cae06a7ed0ec915abf8122aa512415a.svg);
+                // // background-image: url(../../img/arrows-blue-04.png);
+                // background-repeat: no-repeat;
+                // background-position: center;
+                // background-size: cover;
+                // width: 90%;
+            }
+
+
+
+            .stop {
+
+                // border: 1px dashed #ccc;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                // margin-top: 0;
+                // position: absolute;
+                text-align: center;
+                // width: 36;
+                margin-bottom: 3rem;
+
+                img {
+                    // border: 1px solid green;
+                    width: 10rem;
+                }
+            }
+            .caption {
+                padding: 0 4px;
+                margin-top: 6px
+            }
+
+            .ann {
+                // display: none;
+                /* text-align: center; */
+                border-radius: 50%;
+                border: 1px solid;
+                color: #4874b9;
+                font-weight: 700;
+                height: 1.2rem;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1.2rem;
+            }
+
+            .start {
+                // top: 0;
+                // // left: 6.5%
+                // left: 4%;
+                img {
+                    margin-bottom: -1rem;
+                    margin-top: -1rem;
+                    // width: 8rem;
+                }
+            }
+            .tool {
+                // right: 7.5%;
+                // top: 0;
+                img {
+                    // width: 6rem;
+
+                }
+            }
+            .track {
+                // top: 32%;
+                // left: 32%;
+                // img {
+                //     width: 7rem;
+                // }
+            }
+            .car {
+                // bottom: 50px;
+                // left: 6.5%;
+                img {
+                    margin-bottom: -3rem;
+                    // width: 7rem;
+                    margin-top: -3rem;
+                }
+            }
+            .enjoy {
+                // right: 2.5%;
+                // bottom: 1rem;
+                // img {
+                //     width: 8rem;
+                //     margin: -23px 0 0;
+                // }
+            }
+        }
+    }
+
+
+
+
+
+@media (min-width: 767px) {
+
+    .how-it-works {
+        .hiw {
+            .route {
+                width: 720px;
+                height: 550px;
+                margin-top: 48px;
+                position: relative;
+                // background-image: url(/assets/landing_pages/food_vision/hiw-arrows-92209baf8c7af2c59237ee1e246a25243cae06a7ed0ec915abf8122aa512415a.svg);
+                background-image: url(../../img/arrows-blue-04.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+
+
+            .stop {
+
+                // border: 1px dashed #ccc;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                margin-bottom: 0;
+                margin-top: 0;
+                position: absolute;
+                text-align: center;
+                width: 36%;
+
+                img {
+                    // border: 1px solid green;
+                    width: 10rem;
+                }
+            }
+            .caption {
+                padding: 0 4px;
+                margin-top: 6px
+            }
+
+            .ann {
+                // display: none;
+                /* text-align: center; */
+                border-radius: 50%;
+                border: 1px solid;
+                color: #4874b9;
+                font-weight: 700;
+                height: 1.2rem;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1.2rem;
+            }
+
+            .start {
+                top: 0;
+                // left: 6.5%
+                left: 4%;
+                img {
+                    margin-bottom: -1rem;
+                    margin-top: 0rem;
+                    width: 8rem;
+                }
+            }
+            .tool {
+                right: 7.5%;
+                top: 0;
+                img {
+                    width: 6rem;
+                }
+            }
+            .track {
+                top: 32%;
+                left: 32%;
+                img {
+                    width: 7rem;
+                }
+            }
+            .car {
+                bottom: 50px;
+                left: 6.5%;
+                img {
+                    margin-bottom: -28px;
+                    width: 7rem;
+                    margin-top: -2rem;
+                }
+            }
+            .enjoy {
+                right: 2.5%;
+                bottom: 1rem;
+                img {
+                    width: 8rem;
+                    margin: -23px 0 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 990px) {
+    .how-it-works {
+        .hiw {
+            .route {
+                // width: 920px;
+                // height: 522px
+                // width: 950px;
+                // height: 686px;
+                width: 945px;
+                height: 669px;
+            }
+            .caption {
+                margin-top: 12px
+            }
+
+            .start {
+                top: 0;
+                // left: 6.5%
+                left: 4%;
+                img {
+                    width: 10rem;
+                    margin-bottom: -1rem;
+                }
+            }
+            .tool {
+                right: 7.5%;
+                top: 0;
+                img {
+                    width: 8rem !important;
+                }
+            }
+            .track {
+                top: 27%;
+                left: 32%;
+                img {
+                    width: 9rem;
+                }
+            }
+            .car {
+                bottom: 50px;
+                left: 6.5%;
+                img {
+                    width: 9rem;
+                    margin-top: -3rem;
+                    margin-bottom: -3rem;
+                }
+            }
+            .enjoy {
+                right: 6.5%;
+                bottom: 0;
+                img {
+                    margin: -23px 0 0;
+                    width: 10rem;
+                }
+            }
+
+            .car, .enjoy {
+                // bottom: 3px;
+                bottom: 50px;
+            }
+        }
+    }
+
+
+
+
+
+}
